@@ -1,0 +1,7 @@
+python src/main.py --mode preprocess --input-dicom "C:\code\MRI\mri_fistula_project\data\raw"
+
+//run preprocessing then train the model
+python src/main.py --mode all --input-dicom "path/to/raw/dicom/folder"
+
+//run only training
+python src/main.py --mode train --input-dicom "path/to/raw/dicom/folder"

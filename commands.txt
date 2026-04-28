@@ -1,5 +1,4 @@
-python src/main.py --mode preprocess --input-dicom "C:\code\MRI\mri_fistula_project\data\raw"
-
+python src/main.py --mode preprocess --input-dicom "C:\code\MRI\mri_fistula_project\data\raw\DCM_ADITYA 24YM_1213A_6675_6675"
 //run preprocessing then train the model
 python src/main.py --mode all --input-dicom "path/to/raw/dicom/folder"
 
